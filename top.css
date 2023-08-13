@@ -45,3 +45,49 @@
           font-size: 14px ;
           text-align: center
         }
+
+@media screen and (max-width:750px){body { background-color : #EAE0FB }
+
+.attention { color: red ;
+             font-size: 24px ;
+             text-align: center
+            }
+
+.name { color: #aa83ed ;
+        font-size: 20px ;
+        text-align: center
+      }
+
+.ad { color: #aa83ed ;
+      font-size: 14px ;
+      text-align: center 
+    }
+
+.btn { color: dimgrey ;
+       font-size: 18px ;
+       text-align: center 
+      }
+
+.results-container { color: mediumorchid;
+                    text-align: center;
+                    margin-top: 15px
+                    }
+
+.result { color: mediumorchid ;
+          display: inline-block;
+          text-align: center}
+
+.sns { color: dimgray ;
+       font-size: 16px ;
+       text-align: center 
+      }
+
+.next { color: #000000 ;
+        font-size: 14px ;
+        text-align: center 
+       }
+
+.footer { color: #000000 ; 
+          font-size: 14px ;
+          text-align: center
+        }}
