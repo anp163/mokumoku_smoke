@@ -96,3 +96,5 @@ function mixFlavors() {
     resultsContainer.appendChild(resultElement);
   });
 }
+
+document.getElementById('mix-button').addEventListener('click', mixFlavors);
