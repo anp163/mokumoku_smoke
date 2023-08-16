@@ -2,11 +2,6 @@ let flavors;
 let tags;
 let blocklist;
 
-document.querySelector('#fm').addEventListener('submit', function(e){
-  if(!window.confirm('20歳未満の方はこのサイトの閲覧はできません。あなたは20歳以上ですか？')){
-    e.preventDefault();
-  }
-}, false);
 document.querySelector('.btn').addEventListener('click', mixFlavors);
 
 Promise.all([
