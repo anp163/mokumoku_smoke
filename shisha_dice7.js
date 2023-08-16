@@ -69,11 +69,6 @@ function checkExclusion(tags, blocklist) {
   return false;
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  // MIX!ボタンがクリックされたらmixFlavors関数を実行
-  document.getElementById('mix-button').addEventListener('click', mixFlavors);
-});
-
 function mixFlavors() {
   if (!flavors || !tags || !blocklist) {
     console.log("Data not loaded yet.");
@@ -101,5 +96,3 @@ function mixFlavors() {
     resultsContainer.appendChild(resultElement);
   });
 }
-
-document.getElementById('mix-button').addEventListener('click', mixFlavors);
